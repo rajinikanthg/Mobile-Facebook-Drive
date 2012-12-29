@@ -13,8 +13,14 @@ using Microsoft.Phone.Controls;
 
 namespace MobileFacebookDrive
 {
+    /// <summary>
+    /// Splash screen.
+    /// </summary>
     public partial class Splash : PhoneApplicationPage
     {
+        /// <summary>
+        /// Constructor
+        /// </summary>
         public Splash()
         {
             InitializeComponent();

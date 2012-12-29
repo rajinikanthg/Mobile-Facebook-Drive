@@ -23,19 +23,29 @@ namespace MobileFacebookDrive
     {
         /// <summary>
         /// Provides easy access to the root frame of the Phone Application.
-        /// 
-        /// 
-        // manages facebook activities
+
+        /// <summary>
+        /// manages facebook activities
+        /// </summary>        
         public static FacebookManager facebookManager;
-        // manages the flicker activities
+
+
+        /// <summary>
+        /// manages flickr activities
+        /// </summary> 
         public static FlickerLoginManager flickrManager;
         
         public static int selectedAlbumImageIndex;
 
-        // specific album images
+        /// <summary>
+        /// specific album images
+        /// </summary> 
+        // 
         public static AlbumImages albumImages = new AlbumImages();
 
-        // images including facebook tags, user photos, album photos
+        /// <summary>
+        /// images including facebook tags, user photos, album photos
+        /// </summary>
         public static AlbumImages allImages = new AlbumImages();
 
         // selected image index
